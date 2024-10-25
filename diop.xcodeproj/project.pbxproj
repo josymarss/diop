@@ -14,6 +14,8 @@
 		3CA1B6142CAB898600CA3AC3 /* diopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1B6132CAB898600CA3AC3 /* diopTests.swift */; };
 		3CA1B61E2CAB898600CA3AC3 /* diopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1B61D2CAB898600CA3AC3 /* diopUITests.swift */; };
 		3CA1B6202CAB898600CA3AC3 /* diopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1B61F2CAB898600CA3AC3 /* diopUITestsLaunchTests.swift */; };
+		3CA1B6302CAB8A5C00CA3AC3 /* AudioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1B62F2CAB8A5B00CA3AC3 /* AudioModel.swift */; };
+		3CA1B6322CAB8BBC00CA3AC3 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CA1B6312CAB8BBC00CA3AC3 /* RecordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		3CA1B6192CAB898600CA3AC3 /* diopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = diopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CA1B61D2CAB898600CA3AC3 /* diopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diopUITests.swift; sourceTree = "<group>"; };
 		3CA1B61F2CAB898600CA3AC3 /* diopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = diopUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CA1B62F2CAB8A5B00CA3AC3 /* AudioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioModel.swift; sourceTree = "<group>"; };
+		3CA1B6312CAB8BBC00CA3AC3 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +98,9 @@
 		3CA1B6012CAB897F00CA3AC3 /* diop */ = {
 			isa = PBXGroup;
 			children = (
+				3CA1B62C2CAB8A0300CA3AC3 /* Model */,
+				3CA1B62E2CAB8A1700CA3AC3 /* View */,
+				3CA1B62D2CAB8A0C00CA3AC3 /* ViewModel */,
 				3CA1B6022CAB897F00CA3AC3 /* diopApp.swift */,
 				3CA1B6042CAB897F00CA3AC3 /* ContentView.swift */,
 				3CA1B6062CAB898500CA3AC3 /* Assets.xcassets */,
@@ -125,6 +132,29 @@
 				3CA1B61F2CAB898600CA3AC3 /* diopUITestsLaunchTests.swift */,
 			);
 			path = diopUITests;
+			sourceTree = "<group>";
+		};
+		3CA1B62C2CAB8A0300CA3AC3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CA1B62F2CAB8A5B00CA3AC3 /* AudioModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CA1B62D2CAB8A0C00CA3AC3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3CA1B62E2CAB8A1700CA3AC3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3CA1B6312CAB8BBC00CA3AC3 /* RecordView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +288,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3CA1B6052CAB897F00CA3AC3 /* ContentView.swift in Sources */,
+				3CA1B6322CAB8BBC00CA3AC3 /* RecordView.swift in Sources */,
 				3CA1B6032CAB897F00CA3AC3 /* diopApp.swift in Sources */,
+				3CA1B6302CAB8A5C00CA3AC3 /* AudioModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
